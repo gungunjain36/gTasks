@@ -18,7 +18,7 @@ export default function Home(){
         setTodos([]);
     }
     return (
-        <div className="bg-slate-600 min-h-screen m-0 p-0">
+        <div className="bg-black min-h-screen m-0 p-0">
         <div>
             <h1 className="flex flex-row justify-center text-4xl m-7 mt-0 text-lime-400">gTasks</h1>
         </div>
@@ -32,7 +32,7 @@ export default function Home(){
             </div>
            
         </div>
-            <div className="text-black bg-slate-600">
+            <div className="text-black">
                 <TODOList todos={todos}/>
             </div>
         </div>
